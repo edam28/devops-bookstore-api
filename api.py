@@ -1,5 +1,4 @@
-from flask import Flask
-from flask_restful import Resource, Api, reqparse, abort, marshal, fields
+from flask_restful import Resource, Api, reqparse, marshal, fields
 from flask_cors import CORS
 from prometheus_flask_exporter import RESTfulPrometheusMetrics
 
@@ -30,12 +29,6 @@ books = [{
         "bookImage": "https://itbook.store/img/books/9781491929124.png",
         "bookDescription": "The overwhelming majority of a software system's lifespan is spent in use, not in design or implementation. So, why does conventional wisdom insist that software engineers focus primarily on the design and development of large-scale computing systems?",
         "bookAuthors": "Betsy Beyer, Chris Jones, Jennifer Petoff"
-},
-    {
-        "bookTitle": "Mastering JavaScript",
-        "bookImage": "https://itbook.store/img/books/9781785281341.png",
-        "bookDescription": "JavaScript is a high-level, dynamic, untyped, lightweight, and interpreted programming language. Along with HTML and CSS, it is one of the three essential technologies of World Wide Web content production, and is an open source and cross-platform technology.",
-        "bookAuthors": "Ved Antani"
 },
 ]
 
