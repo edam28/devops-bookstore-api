@@ -1,3 +1,4 @@
+from flask import Flask
 from flask_restful import Resource, Api, reqparse, marshal, fields
 from flask_cors import CORS
 from prometheus_flask_exporter import RESTfulPrometheusMetrics

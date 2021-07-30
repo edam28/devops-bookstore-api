@@ -17,4 +17,4 @@ class GetBooksTest(unittest.TestCase):
 
         response = self.app.get(
             '/books', headers={"Content-Type": "application/json"})
-        self.assertEqual(4, len(response.json['books']))
+        self.assertEqual(3, len(response.json['books']))
